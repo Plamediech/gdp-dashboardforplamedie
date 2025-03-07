@@ -1,5 +1,5 @@
 import streamlit as st
-from Models import Post
+from Models.Post import Post
 from typing import Callable
 class FeedView:
     def __init__(self, get_feed_func: Callable[[], list]):
