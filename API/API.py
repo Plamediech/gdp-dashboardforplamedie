@@ -1,4 +1,4 @@
-from Models.Post import Post
+from Models import Post
 import datetime
 class API:
     def __init__(self, config=None):
@@ -19,6 +19,3 @@ class API:
                 "Sara", "Python is a programming language",
                 datetime.datetime(year=2021, month=5, day=3)
             )]
-
-# Create an instance of the API class
-api_instance = API()
